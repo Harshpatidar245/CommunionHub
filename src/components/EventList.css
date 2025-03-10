@@ -1,0 +1,44 @@
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .event-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-card h3 {
+    margin-bottom: 1rem;
+    color: #3a86ff;
+  }
+  
+  .event-details {
+    margin-bottom: 1rem;
+  }
+  
+  .event-details p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .event-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .no-events {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    padding: 2rem;
+  }
